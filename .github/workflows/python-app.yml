@@ -21,7 +21,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: princesslucy/github-actions-app
-        tags: ${{ github.sha }}, v3
+        tags: ${{ github.sha }}, v1.0
         registry: docker.io
         username: princesslucy
         password: dckr_pat_Fk_co4e8ztMTVJpzmFfAEen3i4I
